@@ -5,82 +5,29 @@
 	<meta charset="UTF-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="css/style.scss">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>practic</title>
 </head>
 
 <body>
-	<div class="title">
-		<h1>Я заголовок</h1>
-		<h2>Я заголовок</h2>
-		<h3>Я заголовок</h3>
-		<h4>Я заголовок</h4>
-		<h5>Я заголовок</h5>
-		<h6>Я заголовок</h6>
-	</div>
+	<header class="header">
+		<nav class="header__contacs">
+			<a href="tell:123 456 78" class="header__tell">123 456 78</a>
+			<div class="header__icon">
+				<i class="fa-brands fa-twitter"></i>
+				<i class="fa-brands fa-vk"></i>
+			</div>
+		</nav>
+		<nav class="header__top-navigatio"></nav>
+		<div class="header__banner"></div>
+	</header>
+	<main>
 
-	<div class="link">
-		<a href="#">Я силка</a>
-	</div>
-	<div class="list">
-		<ul>
-			<li>Пункт</li>
-			<li>Пункт</li>
-			<li>Пункт</li>
-		</ul>
-		<ol>
-			<li>Нумерований список</li>
-			<li>Нумерований список</li>
-			<li>Нумерований список</li>
-		</ol>
-	</div>
-	<div class="">
-		<form action="#">
-			<!-- Поля ввода -->
-			<div class=""><input style="display: inline-block; " type="text" disabled autocomplete="off" reguired
-					placeholder="Текст" value="" name="username"></div>
-			<div class=""><input style="display: inline-block; " type="text" autocomplete="off" reguired
-					placeholder="Текст" value="" name="username"></div>
-			<div class=""><input style="display: inline-block; " type="number" autocomplete="off" reguired
-					placeholder="число" value="" name="number"></div>
-			<div class=""><input style="display: inline-block; " type="tel" autocomplete="off" reguired
-					placeholder="Номер телефона" value="" name="tel"></div>
-			<div class=""><input style="display: inline-block; " type="email" autocomplete="off" reguired
-					placeholder="Почта" value="" name="email"></div>
-			<div class=""> <input style="display: inline-block; " type="date" autocomplete="off" reguired value=""
-					name="date">
-			</div>
-			<div class=""><input style="display: inline-block; " type="datetime-local" autocomplete="off"
-					reguiredplaceholder="Календарь" value="" name="date"></div>
-			<div class=""> <input style="display: inline-block; " type="file" multiple reguired value="" name="date">
-			</div>
-			<div class=""><input style="display: inline-block; " type="password" multiple reguired value=""
-					placeholder="Пароль" name="password"></div>
-			<div class=""> <input style="display: inline-block; " type="range" multiple reguired value="" name="range">
-			</div>
+	</main>
+	<footer>
 
-			<!-- Чекбокс -->
-			<input checked type="checkbox" autocomplete="off" value="" name="yes">
-			<div class="">
-				<input checked type="radio" autocomplete="off" value="m" name="sex">М
-				<input type="radio" autocomplete="off" value="f" name="sex">Ж
-			</div>
-			<textarea name="">Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam harum eius facilis ipsum molestias voluptatum ducimus quo ea. Voluptatum error nulla, commodi exercitationem possimus adipisci. Fugiat iste ut excepturi delectus.
-			</textarea>
-			<div class="">
-				<select name="select">
-					<option value="1" selected>Пункт №1</option>
-					<option value="2">Пункт №2</option>
-					<option value="3">Пункт №3</option>
-					<option value="4">Пункт №4</option>
-				</select>
-			</div>
-			<div class="">
-				<button type="submit">Отправить</button>
-			</div>
-		</form>
-	</div>
-
+	</footer>
 </body>
 
 </html>
